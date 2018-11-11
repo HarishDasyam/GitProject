@@ -1,9 +1,7 @@
 package runner;
 import org.junit.runner.RunWith;
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"classpath:features"},
@@ -13,6 +11,6 @@ import cucumber.api.junit.Cucumber;
 //		dryRun = true,
 		monochrome = true
 		)
-public class Runner {
-
+public class Runner
+{
 }
